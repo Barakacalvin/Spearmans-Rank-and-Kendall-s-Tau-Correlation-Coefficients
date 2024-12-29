@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Load the dataset with error handling
-file_path <- "C:/Users/cbaraka/OneDrive/Masters/Assignments/Quantitative Analysis/Week 12/job_survey_data.csv"
+file_path <- "File_Path - N/B Should be separated by Foward slashes"
 if (file.exists(file_path)) {
   data <- read.csv(file_path)
   if (!("prody" %in% colnames(data)) | !("commit" %in% colnames(data))) {
